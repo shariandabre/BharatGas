@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+header * {
+    align-items: center;
+    display: inline; 
+}
