@@ -14,8 +14,8 @@
     />
   </head>
   <body class="overflow-x-hidden" style="font-family: 'Rubik', sans-serif">
-    <div>
-      <header class="flex bg-[#f9f9f9]">
+    <div class="overflow-x-hidden">
+      <header class="flex bg-[#f9f9f9] overflow-x-hidden">
         <div
           class="inline absolute bg-[#f9f9f9] h-28 w-28 rounded-full top-0 left-4"
         >
@@ -24,19 +24,19 @@
         <nav class="w-full h-2/6 flex items-center justify-end p-2">
           <ul
           id="navbar" visible="false"
-            class="h-full flex md:flex-row flex-col md:flex items-center justify-evenly w-5/6 md:text-lg text-2xl font-bold text-[#333]"
+            class="h-full flex md:flex-row flex-col md:flex hidden items-center justify-evenly w-5/6 md:text-lg text-2xl font-bold text-[#333]"
           >
             <li >
-              <a href="#home">Home</a>
+              <a href="#home" onclick="change()">Home</a>
             </li>
             <li>
-              <a href="#service">Services</a>
+              <a href="#service" onclick="change()">Services</a>
             </li>
             <li>
-              <a href="#guide">Guide</a>
+              <a href="#guide" onclick="change()">Guide</a>
             </li>
             <li>
-              <a href="#contact">Contact Us</a>
+              <a href="#contact" onclick="change()">Contact Us</a>
             </li>
           </ul>
 
