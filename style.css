@@ -12,3 +12,24 @@ header * {
     align-items: center;
     display: inline; 
 }
+.menu{
+    border: none;
+    display: block;
+    background-image: url("./img/menu.png") !important;
+    background-repeat: no-repeat;
+    border: none;
+
+}
+.menu[aria-expand="true"] {
+    background-image: url("./img/close.png") !important;
+    background-repeat: no-repeat;
+    border: none;
+  }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+  }
+  .resize-animation-stopper * {
+    animation: none !important;
+    transition: none !important;
+  }
